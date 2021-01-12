@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac toe</title>
+
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🅾️Tic Tac Toe❎</h1>
+        <div class="game" id="game">
+            <div id="box11" class="box" onclick="moved(event)"></div>
+            <div id="box12" class="box" onclick="moved(event)"></div>
+            <div id="box13" class="box" onclick="moved(event)"></div>
+            <div id="box21" class="box" onclick="moved(event)"></div>
+            <div id="box22" class="box" onclick="moved(event)"></div>
+            <div id="box23" class="box" onclick="moved(event)"></div>
+            <div id="box31" class="box" onclick="moved(event)"></div>
+            <div id="box32" class="box" onclick="moved(event)"></div>
+            <div id="box33" class="box" onclick="moved(event)"></div>
+        </div>
+        <br>
+        <h2 id="result"></h2>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
